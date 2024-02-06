@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook - Social Media</title>
+    <link rel="icon" type="image/x-icon" href="https://freebiehive.com/wp-content/uploads/2021/08/Facebook-Icon-PNG-1.jpg">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/82c4af1076.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-left">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/2560px-Facebook_New_Logo_%282015%29.svg.png" class="logo">  
+          <ul>
+            <li><img src="./images/notification.png"></li>
+            <li><img src="./images/inbox.png"></li>
+            <li><img src="./images/video.png"></li>
+          </ul>
+        </div>
+        <div class="nav-right">
+         <div class="search-box">
+            <img src="./images/search.png">
+            <input type="text" placeholder="Search">
+         </div>
+<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+    <img src="./images/srk.jpg">
+</div>
+
+        </div>
+  <!--  Settings-menu-->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./images/srk.jpg">
+                    <div>
+                        <p>Siva Rama Krishna</p>
+                        <a href="#">See your profile</a>
+                     
+                    </div>
+                </div>
+                <hr>
+                    <div class="user-profile">
+                        <img src="./images/feedback.png">
+                        <div>
+                            <p>Give Feedback</p>
+                            <a href="#">Help us to improve the new design</a>
+                         
+                        </div>
+                    </div>  
+                    <hr>
+                    <div class="setting-links">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#">Settings & Privacy <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="./images/help.png" class="settings-icon">
+                        <a href="#">Help & Support <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                    <div class="setting-links">
+                        <img src="./images/display.png" class="settings-icon">
+                        <a href="#">Display & Accessibility <img src="./images/arrow.png" width="10px"></a>
+                    </div>
+                <div class="setting-links">
+                    <img src="./images/logout.png" class="settings-icon">
+                    <a href="#">Logout<img src="./images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!--left-sidebar-->
+     <div class="left-sidebar">
+     <div class="imp-links">
+        <a href="#"><img src="./images/news.png"> Latest News</a>
+        <a href="#"><img src="./images/friends.png"> Friends</a>
+        <a href="#"><img src="./images/group.png"> Group</a>
+        <a href="#"><img src="./images/marketplace.png"> Marketplace</a>
+        <a href="#"><img src="./images/watch.png"> Watch</a>
+        <a href="#">See More</a>
+     </div>
+     <div class="shortcut-links">
+        <p>Your Shortcuts</p>
+        <a href="#"><img src="./images/shortcut-1.png">Web Developer</a>
+        <a href="#"><img src="./images/shortcut-2.png">Web Design Course</a>
+        <a href="#"><img src="./images/shortcut-3.png">Full Stack Development</a>
+        <a href="#"><img src="./images/shortcut-4.png">Website Experts</a>
+     </div>
+     </div>
+      <!------ main content------ -->
+     <div class="main-content">
+        <div class="story-gallery">
+            <div class="story story1">
+                <img src="./images/upload.png">
+                <p>Post Story</p>
+            </div>
+            <div class="story story2">
+                <img src="./images/ss.jpg">
+                <p>Siva rama krishna</p>
+            </div>
+            <div class="story story3">
+                <img src="./images/satish.jpg">
+                <p>Satish</p>
+            </div>
+            <div class="story story4">
+                <img src="./images/krish.jpg">
+                <p>Krishna</p>
+            </div>
+            <div class="story story5">
+                <img src="./images/hero.jpg">
+                <p>Gangadhar</p>
+            </div>
+        </div>
+
+        <div class="write-post-container">
+            <div class="user-profile">
+                <img src="./images/srk.jpg">
+                <div>
+                    <p>Siva Rama Krishna</p>
+                    <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                </div>
+            </div>
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on your mind, Siva Rama Krishna?"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="./images/live-video.png">Live Video</a>
+                    <a href="#"><img src="./images/photo.png">Photo Video</a>
+                    <a href="#"><img src="./images/feeling.png">Felling Activity</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Siva Rama Krishna</p>
+              <span>June 24 2023, 12:40</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text">Suscribe<span> @Easy Tutorilas </span>YouTube channel to more videos on
+            website development and UI designs YouTube channel to more videos on.<a href="#">#EasyTutorials</a><a href="#">#YouTubeChannel</a></p>
+            <img src="./images/rr.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="./images/like-blue.png">120</div>
+                    <div><img src="./images/comments.png">45</div>
+                    <div><img src="./images/share.png">30</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="./images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Kiran kumar</p>
+              <span>July 25 2023, 10:40am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text"></p>Good comments are those that add value to the conversation or content they are attached to. They can be insightful, constructive, respectful, and contribute to a positive and engaging discussion.
+            <img src="./images/banner1.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="./images/like-blue.png">140</div>
+                    <div><img src="./images/comments.png">55</div>
+                    <div><img src="./images/share.png">45</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="./images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Satish Kumar</p>
+              <span>August 25 2023, 9:40am</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text"></p>A top comment is a comment that has received the greatest number of likes on a video. Though it may sound simple, getting your comment to trend and hit the top.
+            <img src="./images/rk.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="./images/like-blue.png">170</div>
+                    <div><img src="./images/comments.png">75</div>
+                    <div><img src="./images/share.png">55</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="./images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Kiran Sir</p>
+              <span>Sepetember 12 2023, 12:40pm</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text"></p>A comment is something that you say which expresses your opinion of something or which gives an explanation of it. He made his comments at a news conference in Amsterdam.
+            <img src="./images/banner2.jpg" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="./images/like-blue.png">200</div>
+                    <div><img src="./images/comments.png">55</div>
+                    <div><img src="./images/share.png">30</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="./images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="post-container">
+            <div class="post-row">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png">
+                    <div>
+                        <p>Gangadhar Sir</p>
+              <span>June 24 2023, 12:40</span>
+                    </div>
+                </div>
+                <a href="#"><i class="fa-solid fa-ellipsis-v"></i></a>
+
+            </div>
+            
+            <p class="post-text"></p>An Instagram Comment is one of the two ways that people engage with the content they see on Instagram. The other option is to simply like the post. Comments are often a more.
+            <img src="./images/feed-image-5.png" class="post-img">
+
+            <div class="post-row">
+                <div class="activity-icons">
+                    <div><img src="./images/like-blue.png">250</div>
+                    <div><img src="./images/comments.png">56</div>
+                    <div><img src="./images/share.png">33</div>
+
+                </div>
+                <div class="post-profile-icon">
+                    <img src="./images/profile-pic.png"><i class="fa-solid fa-caret-down"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <button type="button" class="load-more-btn">Load More</button>
+
+
+     </div>
+      <!------ right-sidebar------ -->
+     <div class="right-sidebar">
+        <div class="sidebar-titile">
+            <h4>Events</h4>
+            <a href="#">Sell all</a>
+        </div>
+
+        <div class="event">
+            <div class="left-event">
+                <h3>18</h3>
+                <span>March</span>
+            </div>
+            <div class="right-event">
+                <h4>Social Media</h4>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="event">
+            <div class="left-event">
+                <h3>24</h3>
+                <span>Aprial</span>
+            </div>
+            <div class="right-event">
+                <h4>Mobile Marketing</h4>
+                <p><i class="fa-sharp fa-solid fa-location-dot"></i>Wilson Tech Park</p>
+                <a href="#">More Info</a>
+            </div>
+        </div>
+        <div class="sidebar-titile">
+            <h4>Advertisement</h4>
+            <a href="#">Close</a>
+        </div>
+        <img src="./images/advertisement.png" class="sidebar-ads">
+
+        <div class="sidebar-titile">
+            <h4>Conversation</h4>
+            <a href="#">Hide Chat</a>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="./images/member-1.png">
+            </div>
+            <p>Alison Mina</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="./images/member-2.png">
+            </div>
+            <p>Kiran Sir</p>
+        </div>
+        <div class="online-list">
+            <div class="online">
+                <img src="./images/member-3.png">
+            </div>
+            <p>Jyoshna</p>
+            </div>
+        </div>
+     </div>
+     <div class="footer">
+        <p>Copyright 20223 - Easy Tutorial YouTube Channel</p>
+     </div>
+     <script src="script.js"></script>
+
+
+</body>
+</html>
